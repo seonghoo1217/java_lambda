@@ -8,6 +8,8 @@ public class Case4 {
 		String name="이성호";
 
 		cd=u->u+name;
-		System.out.println(cd.userName("학생 "));
+//		System.out.println(cd.userName("학생 "));
+		Case5 case5=new Case5();
+		case5.getUserName(cd.userName("학생 "));
 	}
 }
